@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hilla-crm
+  datasource:
+    username: postgres
+    password: P0S1tiv@!
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/hilla-test
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+server:
+  port: 9091
